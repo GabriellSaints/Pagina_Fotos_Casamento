@@ -1,0 +1,35 @@
+body {
+    background-image: linear-gradient(#E6E6FA, #FFE4E1, #FFF0F5);
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+.principal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna1, .coluna2, .coluna3, .coluna4, .coluna5 {
+    align-items: center;
+    margin: 15px;
+    flex-grow: 1;
+}
+
+img {
+    width: 100%;
+    margin: 1%;   
+    }
+    
+h3 {
+    text-align:center;
+    color: rgb(6, 135, 209);
+    font-size: 1.5em;
+}
+
+a:link, a:visited {
+    color: #8B008B;
+}
